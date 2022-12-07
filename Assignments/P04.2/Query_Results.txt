@@ -1,0 +1,24 @@
+Before: [(6, 'Mark11', 247.5, 0.0, Decimal('2250')), (6, 'Mark11', 247.5, 0.0, Decimal('1500'))]
+
+Query: UPDATE gun_state SET ammo = 111  where ship_id = 6 and gun_id = 'Mark11'
+
+After updating the ammo: [(6, 'Mark11', 247.5, 0.0, Decimal('111')), (6, 'Mark11', 247.5, 0.0, Decimal('111'))]
+
+********************************************************************************************************
+
+Before: [(6, 247.5, Decimal('35'), '0101000020E6100000A3EA573A1F8620C018247D5A45ED4840')]
+
+Query: UPDATE ship_state SET bearing = 300, speed = 70 WHERE ship_id = 6
+
+After updating speed and direction: [(6, 300.0, Decimal('70'), '0101000020E6100000A3EA573A1F8620C018247D5A45ED4840')]
+
+*************************************************************************************************************
+
+Before: [(7, 'Mark8', 247.5), (7, 'Mark11', 247.5), (7, 'Mark11', 247.5), (7, 'Mark8', 247.5)]
+
+Query: UPDATE gun_state SET bearing = 111 WHERE ship_id = 7
+
+After updating direction: [(7, 'Mark8', 111.0), (7, 'Mark11', 111.0), (7, 'Mark11', 111.0), (7, 'Mark8', 111.0)]
+
+*************************************************************************************************************
+
