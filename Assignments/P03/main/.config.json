@@ -1,0 +1,8 @@
+{
+    "dbname": "defaultdb",
+    "user": "doadmin",
+    "password": "AVNS_5_riLWsZhGJFoDsH8rs",
+    "host": "db-postgresql-ams3-57823-do-user-12755587-0.b.db.ondigitalocean.com",
+    "port": "25060",
+    "schema": "public"
+}
