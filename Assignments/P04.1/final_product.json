@@ -1,0 +1,69 @@
+{
+    "fleet_id": "BrahMos",
+    "ship_status": [
+        {
+            "ship_id": 0,
+            "bearing": 247.5,
+            "location": {
+                "lon": -8.263501,
+                "lat": 49.854677
+            }
+        },
+        {
+            "ship_id": 1,
+            "bearing": 247.5,
+            "location": {
+                "lon": -8.265045,
+                "lat": 49.853679
+            }
+        },
+        {
+            "ship_id": 2,
+            "bearing": 247.5,
+            "location": {
+                "lon": -8.263501,
+                "lat": 49.855675
+            }
+        },
+        {
+            "ship_id": 3,
+            "bearing": 247.5,
+            "location": {
+                "lon": -8.265045,
+                "lat": 49.854677
+            }
+        },
+        {
+            "ship_id": 4,
+            "bearing": 247.5,
+            "location": {
+                "lon": -8.266589,
+                "lat": 49.853679
+            }
+        },
+        {
+            "ship_id": 5,
+            "bearing": 247.5,
+            "location": {
+                "lon": -8.263501,
+                "lat": 49.853679
+            }
+        },
+        {
+            "ship_id": 6,
+            "bearing": 247.5,
+            "location": {
+                "lon": -8.261957,
+                "lat": 49.853679
+            }
+        },
+        {
+            "ship_id": 7,
+            "bearing": 247.5,
+            "location": {
+                "lon": -8.265045,
+                "lat": 49.855675
+            }
+        }
+    ]
+}
